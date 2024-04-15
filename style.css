@@ -1,0 +1,118 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .content {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .content {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .content {
+    width: 300px;
+  }
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.629);
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  padding: 5px;
+  border: 5px solid rgba(0, 0, 0, 0.441);
+}
+
+h1 {
+  font-size: 100;
+  color: rgb(204, 181, 226);
+  text-shadow: 0.5px 0.5px 0.5px rgb(255, 255, 255);
+}
+
+h2 {
+  font-size: 80;
+  color: rgb(204, 181, 226);
+  text-shadow: 0.5px 0.5px 0.5px rgb(255, 255, 255);
+}
+
+#banner {
+  color: rgb(204, 181, 226);
+  line-height: normal;
+}
+
+#banner p {
+  color: rgb(204, 181, 226);
+}
+
+p {
+  text-shadow: 0.1px 0.1px 0.1px rgb(5,5,5);
+}
+
+#social_list {
+  list-style-type: none;
+  color: #02ba42;
+}
+
+ul {
+  list-style-type: none;
+
+}
+
+#contact_btn a {
+  background-color: #7910b5;
+  border-radius: 5px;
+  color: #d61320;
+  font-weight: bold;
+  border: 10px, 10px;
+  display: inline-block;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#contact_btn a:hover {
+  color: #ff3dec
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+#bg-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background-size: cover;
+  overflow: hidden;
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: auto;
+  border-radius: rgb(204, 181, 226), 5;
+}
+
+.fa-brands {
+  color: aliceblue;
+  font-size: 30px;
+}
